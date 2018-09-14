@@ -8,7 +8,7 @@ lazy val root = (project in file(".")).
       version      := "0.1.0-SNAPSHOT"
     )),
     name := "location-entropy-calculator",
-    libraryDependencies ++= Seq(scalaTest, scalaCheck, apacheSpark, sparkSql, guice)
+    libraryDependencies ++= Seq(scalaTest, apacheSpark, sparkSql, guice)
 
   )
 
